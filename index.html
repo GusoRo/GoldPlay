@@ -10,45 +10,51 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+        
     <header>
 
-    <div>
+        <div class="header-navigation">
 
-        <img src="/src/assets/images/logo.svg" alt="Logo GoldPlay">
+            <img src="/src/assets/images/logo.svg" alt="Logo GoldPlay">
 
-        <ul>
-            <nav>
-                <li><a href="">Início</a></li>
-                <li><a href="">Genêros</a></li>
-                <li><a href="">Planos</a></li>
-                <li><a href="">Catálogos</a></li>
+            <nav aria-label="Navegação principal">
+                <ul class="itens-navigation">
+                    <li><a href="">Início</a></li>
+                    <li><a href="">Genêros</a></li>
+                    <li><a href="">Planos</a></li>
+                    <li><a href="">Catálogos</a></li>
+                </ul>
             </nav>
 
-        </ul>
+        </div>
 
-    </div>
 
-    <div>
+            <div class="container-search">
+                <form>
 
-        <form>
+                    <input type="text">
+                    <button>
+                        <img src="./src/assets/images/Vector.svg" alt="Pesquisar">
+                    </button>
+                </form>
+                <nav>
+                    <a href="" class="btnHeader">Entrar</a>
+                </nav> 
+            </div>
 
-            <input type="text">
-
-            <button>
-                <img src="./src/assets/images/Vector.svg" alt="Pesquisar">
-            </button>
-            
-            <nav>
-                <a href="Entrar">Entrar</a>
-            </nav> 
-            
-        </form>
-
-    </div>
+        </div>
 
 
     </header>
+
+    <main>
+        <h1>Todo entretenimento em um <span>único lugar</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magni repudiandae laboriosam a earum ipsa maxime eaque nihil praesentium? Sequi dolores tempora earum aliquid temporibus nobis, fugiat magni quis reiciendis!</p>
+        <nav>
+          <a href="">Começar agora</a>
+          <a href="">Conheça a plataforma</a>  
+        </nav>
+    </main>
 
 
 
